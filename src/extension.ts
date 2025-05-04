@@ -5,7 +5,7 @@ import { commands, window, ExtensionContext, workspace, ConfigurationChangeEvent
 
 let paredit = require('paredit.js');
 
-const languages = new Set(["commonlisp", "clojure", "lisp", "scheme"]);
+const languages = new Set(["commonlisp", "clojure", "lisp", "scheme", "fennel"]);
 let enabled = true,
     expandState = { range: null, prev: null };
 
